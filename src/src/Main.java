@@ -1,0 +1,13 @@
+import logger.Logger;
+import logger.LoggerFactory;
+
+public class Main {
+
+    private static final Logger log = LoggerFactory.getLogger(Main.class);
+
+    public static void main(String[] args) {
+
+        log.info("Hello, Welcome to Data Structure in Java course !");
+
+    }
+}
