@@ -1,5 +1,5 @@
-import logger.Logger;
-import logger.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Main {
 
@@ -8,6 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
         log.info("Hello, Welcome to Data Structure in Java course !");
+        
+        int num = 10;
+        log.info("Number = {}", num);
 
     }
 }

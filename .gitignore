@@ -4,6 +4,10 @@
 *.iws
 *.ipr
 
+# Maven
+target/
+app/lib/
+
 # Compiled output
 out/
 *.class
