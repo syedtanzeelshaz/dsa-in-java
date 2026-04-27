@@ -8,9 +8,6 @@ public class Main {
     public static void main(String[] args) {
 
         log.info("Hello, Welcome to Data Structure in Java course !");
-        
-        int num = 10;
-        log.info("Number = {}", num);
 
     }
 }
